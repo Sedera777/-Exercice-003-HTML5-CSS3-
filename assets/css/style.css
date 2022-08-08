@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400;1,600;1,700;1,800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+    --bold: bold;
+    --aqua: #3d9f96;
+    --opensans: Open Sans, Arial, sans-serif;
+    --grey: #f7f7f7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: .9rem;
+    box-sizing: border-box;
+    font-family: Raleway, Arial, sans-serif;
+}
+
+header {
+    background: url('../img/header_bg.jpg');
+}
+
+nav .aqua {
+    color: #3d9f96;
+}
+
+.icone {
+    background: var(--grey);
+}
+
+.new {
+    color: var(--aqua);
+    font-weight: var(--bold);
+}
+
+button {
+    color: #FFFFFF;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: var(--aqua);
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: var(--aqua);
+}
+
+.map {
+    margin-left: 30%;
+    margin-right: 30%;
+    background: url('../img/map_bg.png') no-repeat;
+}
+
+.play {
+    position: absolute;
+    margin-top: -90%;
+    margin-left: 10%;
+}
+
+.separator {
+    background: url('../img/seperator2.jpg');
+}
+
+.screenshot {
+    background: var(--grey);
+}
+
+.mauto {
+    margin: 0 25%;
+}
+
+figcaption {
+    margin-top: 7%;
+    font-weight: var(--bold);
+}
+
+footer {
+    background: var(--grey);
+}
